@@ -14,7 +14,7 @@ import { HousingLocationComponent } from "../housing-location/housing-location.c
         <button class="primary" type="button">Search</button>
       </form>
     </section>
-    <section class="listings-container">
+    <section class="results">
       <app-housing-location
         *ngFor="let housingLocation of housingLocationList"
         [housingLocation]="housingLocation"
